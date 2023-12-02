@@ -1,5 +1,5 @@
 # Stopwatch 262
-Stopwatch built with 262 lines of JavaScript.
+Stopwatch made with 262 characters of JavaScript.
 
 ```javascript
 d=q=>document.getElementById(q);c=f=0;b=d('start');o=d('stop');i='disabled';
