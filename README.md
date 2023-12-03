@@ -1,11 +1,11 @@
-# Stopwatch 262
-Stopwatch made with 262 characters of JavaScript.
+# Stopwatch 245
+Stopwatch made with 245 characters of JavaScript.
 
 ```javascript
 d=q=>document.getElementById(q);c=f=0;b=d('start');o=d('stop');i='disabled';
 setInterval(_=>p(c+f),10);m=n=>`0${~~n}`.slice(-2);
 h=6000;p=n=>d('time').textContent=m(n/h)+':'+m(n%h/100)+':'+m(c=n);
-start=_=>f=b[i]=!(o[i]=0);stop=z=_=>f=b[i]=!(o[i]=1);reset=_=>p(z())
+start=stop=t=n=>f=b[i]=!(o[i]=f|n);reset=_=>p(t(1))
 ```
 
 # License
